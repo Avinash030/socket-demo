@@ -1,0 +1,146 @@
+@media only screen and (max-width:1200px){
+.main_container{ width:960px;}
+.main_container2{ width:960px;}
+.stats ul li .numscroller{ font-size: 51px;}
+.stats ul li span{ font-size:16px;}
+.stats{ padding:20px 0} 
+
+.coin_details_btm ul li{ width:24.5%}
+.coin_details_top ul li{ width:24.5%}
+.coin_details_top ul li:nth-child(5){ display:none}
+
+.banner_content_l{ width:500px;} 
+.banner_content .t1 span{font-size: 42px;}
+.homebanner{ height:480px;}
+}
+
+@media only screen and (max-width:900px){
+.main_container{ width:750px;}
+.main_container2{ width:750px;}
+
+.coin_details_btm ul li{ width:32.8%}
+.coin_details_top ul li{ width:32.8%}
+.coin_details_top ul li:nth-child(5){ display:none}
+.coin_details_top ul li:nth-child(4){ display:none}
+
+.banner_content_l{width: 400px;}
+.banner_content .t1{font-size: 28px;}
+.banner_content .t1 span{font-size: 32px;}
+.banner_content .email_subs .input{ width:184px}
+.banner_content .t2{font-size: 29px;}
+.banner_content_r{ width: 328px;}
+
+.homebanner{ height:420px;}
+.banner_content_l{margin-top: 43px; padding-left: 30px;}
+.banner_content_r{ width:100%;  margin-top: 54px;}
+.homebanner{ height:650px;}
+.banner_content_l{ padding-left:0; width:100%}
+.banner_content .t1 span{ font-size:25px;}
+.banner_content .t1{font-size: 20px;}
+
+.cnt223 { min-width: 95% !important; width: 95% !important; border-radius: 30px;}
+.cnt223 a img { float: right; width: 15% !important; position: relative; top: -5px !important; left: 7px !important;}
+.cnt223 img{ width: 100%;}
+}
+
+@media only screen and (max-width:700px){
+.main_container{ width:590px;}
+.main_container2{ width:590px;}
+.head_right .mob{ display:none}
+
+.stats ul li .numscroller{ font-size: 41px;}
+.stats ul li span{ font-size:16px;}
+.stats{ padding:20px 0} 
+
+.feel_secure ul li{ width:90%; padding: 20px 5%; border:none}
+.feel_secure_top h2{ font-size:20px;}
+
+.coin_details_btm ul li{ width:49.5%}
+.coin_details_top ul li{ width:49.5%}
+.coin_details_top ul li:nth-child(5){ display:none}
+.coin_details_top ul li:nth-child(4){ display:none}
+.coin_details_top ul li:nth-child(3){ display:none}
+
+.cnt223 { min-width: 95% !important; width: 95% !important; border-radius: 20px;}
+.cnt223 a img { float: right; width: 12% !important; position: relative; top: -5px !important; left: 5px !important;}
+.cnt223 img{ width: 100%;}
+}
+
+@media only screen and (max-width:550px){
+.main_container{ width:460px;}
+.main_container2{ width:460px;}
+
+.stats ul li .numscroller{ font-size: 31px;}
+.stats ul li span{ font-size:14px;}
+.stats{ padding:20px 0} 
+
+.coin_details_btm ul li{ width:100%; margin:0}
+.coin_details_top ul li{ width:100%; margin:0}
+.coin_details_top ul li:nth-child(5){ display:none}
+.coin_details_top ul li:nth-child(4){ display:none}
+.coin_details_top ul li:nth-child(3){ display:none}
+.coin_details_top ul li:nth-child(2){ display:none}
+.coin_tabs_top ul li a{padding: 8px 6px;}
+
+.item .icon1{ width:100%;}
+}
+
+@media only screen and (max-width:400px){
+.main_container{ width:350px;}
+.main_container2{ width:350px;}
+.header .logo img { width:120px;}
+.head_right{padding-top: 4px;}
+.head_right .login a{border-radius: 5px; padding: 2px 12px;}
+.footer .list{width: 100%; padding-bottom: 20px; text-align:left}
+.footer{ padding:25px 0}
+.footer .social img{ width:35px;}
+.social{ padding-top:10px}
+.foo{ font-size:10px; padding-top:10px;}
+
+.banner_content .email_subs .btn{ padding: 6px 10px;}
+.banner_content .email_subs .input{padding: 7px 0px 8px 10px;}
+.banner_content .t2{font-size: 22px;}
+.homebanner{ height:580px;}
+
+.about-crypto{ width: 100%; padding-bottom: 20px;}
+.about-crypto img{width: 100%;}
+
+.inner-image img{width: 100%; padding-top: 20px;}
+
+.coin_tabs_top ul li a{padding: 8px 2px;}
+
+/*.header .logo{ text-align: center; float: none;}
+.head_right .login{ padding-left: 55px;}*/
+
+/*.cnt223 {min-width: 320px !important; width: 320px !important; min-height: 150px; margin: 0px auto !important; top: 100px; background: #f3f3f3; position: relative; z-index: 1000000000000000000; border-radius: 5px; box-shadow: 0 2px 5px #000;}
+.responsive { width: 100%; height: auto;}*/
+}
+
+@media screen and (max-width: 900px) and (min-width: 550px) {
+.item .icon1{ width:60%;}
+.item { padding-left: 125px;}
+
+.coin_tabs_top ul li a{padding: 8px 23px;}
+}
+
+@media screen and (max-width: 900px) and (min-width: 401px) {
+.main_container{ width:95%;}
+.main_container2{ width:95%;}
+
+.about-crypto{width: 100%;padding-bottom: 20px;}
+.about-crypto img{width: 100%;}
+
+.inner-image img{width: 50%; padding-top: 20px;}
+}
+
+@media only screen and (max-width:480px){
+.telegram-bottom { position: fixed; top: auto; bottom: 10px; right: 90px; left: auto; z-index: 200; border-radius: 50%;}
+.telegram-bottom a { display: block; font-size: 60px; color: #0088cc;}
+.telegram-bottom img { height: 72px; width: 72px; vertical-align: top; display: block;}
+
+.tooltip__base { width: 100%;}
+
+.cnt223 { min-width: 95% !important; width: 95% !important; border-radius: 10px;}
+.cnt223 a img { float: right; width: 10% !important; position: relative; top: -5px !important; left: 5px !important;}
+.cnt223 img{ width: 100%;}
+}

@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+h2,h1,h3,h4,h5,ul.li{ margin:0; padding:0}
+img { border:none}
+.header .logo{ float:left}
+body{margin:0; padding:0; font-family: 'Roboto', sans-serif; font-size:14px; color:#071229; overflow-x:hidden}
+.main_container{ width:1260px; margin:0 auto}
+.main_container2{ width:1180px; margin:0 auto}
+.main_container3{ width:100%; max-width:1500px; margin:0 auto}
+.header{ width:100%; float:left; padding:5px 0; background:#fdfdfd}
+.head_right{ float:right;     padding-top: 7px;}
+.head_right .mob{ float:right;     padding-left: 20px;     padding-top: 9px;}
+.head_right .login{ float:right}
+.head_right .login a { border-radius:25px; float:left; padding:8px 30px; color:#142143; float:left; text-decoration:none; border:1px solid #142143; background:#fff; margin-left:15px; float:left}
+.head_right .login a:hover{border:1px solid #142143; background:#142143; color:#fff;}
+.head_right .login a.active{border:1px solid #142143; background:#142143; color:#fff;}
+
+
+canvas{ display:block;  vertical-align:bottom; opacity:0.3}
+.count-particles{background: #000022;  position: absolute;  top: 48px;   left: 0;  width: 80px;  color: #13E8E9;  font-size: .8em;  text-align: left;  text-indent: 4px;
+  line-height: 14px;  padding-bottom: 2px;  font-family: Helvetica, Arial, sans-serif;  font-weight: bold;}
+.js-count-particles{  font-size: 1.1em;}
+#stats,.count-particles{  -webkit-user-select: none;  margin-top: 5px;  margin-left: 5px;}
+#stats{  border-radius: 3px 3px 0 0;  overflow: hidden; display:none}
+.count-particles{  border-radius: 0 0 3px 3px;}
+/* ---- particles.js container ---- */
+#particles-js{  width: 100%;  height: 100%;  background-color: #1a1a11;  background-image: url('');  background-size: cover;  background-position: 50% 50%;  background-repeat: no-repeat;}
+
+
+.homebanner{ width:100%; float:left; height:475px; position:relative; background:#1a1a11; }
+.banner_content{ position:absolute; left:0; top:0; width:100%;}
+.banner_content_l{ float:left; margin-top:120px;}
+.banner_content .t1 { font-size:38px; color:#fff;}
+.banner_content .t1 span { display:block; font-size:54px; font-weight:700}
+.banner_content .email_subs{ width:100%; float:left; margin:20px 0}
+.banner_content .email_subs .input{ padding: 13px 47px 13px 17px;  background: #fff;    float: left;    -webkit-appearance: none;    border: none;    outline: none;     width: 230px; -webkit-apparance: none;}
+.banner_content .email_subs .btn{ float:left; background:none; border:1px solid #efcb4b; color:#efcb4b; float:left; margin-left:10px; padding:12px 15px; -webkit-appearance: none;        outline: none; cursor:pointer} 
+.banner_content .email_subs .btn:hover { background:#efcb4b; color:#1a1a11}
+.banner_content .t2 { color:#9e9664; font-size:36px;}
+
+
+.banner_content_r{ width:400px; height:300px; float:right;  margin-top:90px;}
+ .owl-theme .owl-controls{margin-top:20px; float:right}
+	.owl-theme .owl-controls .owl-buttons div{color: #FFF; zoom: 1; *display: inline;/*IE7 life-saver */	 padding: 3px 10px;	font-size: 12px; -webkit-border-radius: 30px; -moz-border-radius: 30px; margin:0 5px;
+	border-radius: 30px; background: #869791;	filter: Alpha(Opacity=50);/*IE7 fix*/ opacity: 0.5;}
+	.owl-theme .owl-controls.clickable .owl-buttons div:hover{filter: Alpha(Opacity=100);/*IE7 fix*/ opacity: 1; text-decoration: none;}
+.owl-theme .owl-controls .owl-page{display: inline-block; zoom: 1; *display: inline;/*IE7 life-saver */}
+.owl-theme .owl-controls .owl-page span{display: block;	width: 36px; height: 5px;	margin: 5px 7px;  	background: #999999;}
+.owl-theme .owl-controls .owl-page.active span{ background:#d12219}
+
+.owl-prev{ display:none!important}
+.owl-next{ display:none!important}
+
+.item { height:350px; position:relative; color:#061731}
+.item .icon1  { position:absolute; width: 400px;}
+.item .txt2{ position:absolute; right:20px; top:20px;  font-size:13px;}
+.item .txt3 {  text-align:right; font-size:25px; line-height:36px; width:85%; right:8%; bottom:30px; position:absolute; font-weight:400}
+.item .txt3 span{ display:block}
+
+.owl-pagination{ position:absolute; right:0; top:-30px}
+
+.coin_tabs_top{ width:100%; float:left; margin-top:-38px; position:relative; z-index:0;}
+.coin_tabs_top ul { margin:0; padding:0}
+.coin_tabs_top ul  li{ list-style:none; display:inline-block; float:left}
+.coin_tabs_top ul  li a { color:#fff; background:#142143; margin-right:5px;  font-weight:500;  font-size:14px; padding:8px 32px; text-decoration:none; float:left}
+.coin_tabs_top ul  li a.active {background:#ead03e; color:#142143;} 
+.coin_details { display:none; width:100%; float:left; font-size:13px; line-height:24px; margin:0 0 03 0}
+.coin_details.active { display:block}
+
+.coin_tabs{ width:100%; float:left}
+.coin_details_main{ width:100%; float:left}
+.coin_details_top { width:100%; float:left; background:#ead03e; padding:5px 0; font-size:15px; font-weight:600; color:#142143}
+.coin_details_top ul { margin:0; padding:0}
+.coin_details_top ul li { width:19.5%; margin-right:0.5%; float:left; list-style:none}
+.coin_details_top .ta1{ float:left; margin-left:20px;}
+.coin_details_top .ta{ float:right;}
+.coin_details_top .ta2 { width:75px; float:left;}
+.coin_details_top .ta23 { width:75px; float:left;}
+.coin_details_top .ta22 { width:120px; float:left;}
+.coin_details_top .ta3 { width:75px; float:left;}
+
+.coin_details_btm { width:100%; float:left}
+.coin_details_btm ul { margin:0; padding:0}
+.coin_details_btm ul li { width:19.5%; margin-right:0.5%; margin-bottom:15px; font-weight:500; padding:8px 0; float:left; background:#ececec; list-style:none;     line-height: initial;}
+.coin_details_btm .ta1{ float:left; margin-left:15px;}
+.coin_details_btm .ta1 .image { width:20px; height: 20px; float: left; display: table; text-align: center;}
+.coin_details_btm .ta1 .image .img {width: 100%; height: 20px; display: table-cell; float: none; vertical-align: middle;}
+.coin_details_btm .ta1 .image .img img { max-width:20px; max-height: 20px; float:left; }
+.coin_details_btm .ta1 .txt { float:left; color:#2352b6; /*padding-top:3px;*/ text-decoration:underline; padding-left:5px;}
+.coin_details_btm .ta1 .txt a  {color:#2352b6; text-decoration:underline; }
+.coin_details_btm .ta{ float:right; padding-top:3px; width: 55%;}
+.coin_details_btm .ta2 { width:70px; float:left; color:green}
+.coin_details_btm .ta23 { width:80px; float:left; color:green}
+.coin_details_btm .ta22 { width:70px; float:left; color:green; padding-left: 55px;}
+.coin_details_btm .ta3 { width:70px; float:left; color:red}
+.coin_details_btm .ta2.down{ color:red}
+.coin_details_btm .ta23.down{ color:red}
+.coin_details_btm .ta22.down{ color:red}
+.coin_details_btm .ta3.down{ color:red}
+.clr{ clear:both}
+
+.feel_secure{ width:100%; float:left; margin-top:40px; text-align: center;}
+.feel_secure_top{ width:100%; text-align:center; padding-bottom: 40px;} 
+.feel_secure_top h2 { font-size:20px; font-weight:400; font-size:25px; padding:7px 0; color: #142143;}
+.feel_secure_top .txt2 { color: #142143;}
+.feel_secure h3 { font-weight:400; font-size:18px; padding:10px 0 20px 0; color: #142143;}
+.feel_secure .txt { color: #142143;}
+/*.feel_secure{ width:100%; float:left; text-align:center;}*/
+.feel_secure ul { margin:40px 0; width:100%; float:left; padding:0}
+.feel_secure ul li  { list-style:none; width:33.33%; padding:20px 4%; float:left; line-height:22px; border-right:1px solid #eaeaea} 
+.feel_secure ul li:nth-child(3){ border:none}
+
+.stats{ background:#ead03e; width:100%; padding:40px 0; float:left}
+.stats ul { margin:0; padding:0}
+.stats ul li { width:33.3%; float:left; color:#fff; text-align:center; list-style:none;}
+.stats ul li .numscroller{ font-size:60px;}
+.stats ul li span { font-size:18px;}
+
+.footer { width:100%; float:left; background:#071025; padding:50px 0}
+
+.footer .list{ width:33.3%; float:left; text-align:center}
+.footer  { color:#505663; line-height:25px;}
+.footer ul { margin:0; padding:0}
+.footer ul li { list-style:none; display:block} 
+.footer ul li a { color:#505663; text-decoration:none}
+.footer h3 { padding-bottom:15px; text-decoration:underline; color: #858b98;}
+
+.footer .social{ text-align:center}
+.footer .social img { padding:0 10px;}
+.social{ padding-top:40px;}
+.foo{ width:100%; float:left; text-align:center; padding-top:30px; }
+
+.inner_page{ width:100%; float:left; padding:40px 0}
+.inner_page h2 { padding-bottom:20px;}
+.inner_page p { font-size:14px; line-height:20px; padding-bottom:10px;}
+
+.about-crypto{width: 33.3%; float: left;}
+.about-crypto img{width: 95%; float: left;}
+
+.inner_page p{text-align: justify;}
+.inner_page ul li{text-align: justify;}
+
+.inner-image{text-align: center; padding-top: 20px;}
+
+.support{text-align: center;}
+.support p{text-align: center;}
+
+.grid-container {display: grid; grid-template-columns: auto auto auto auto;}
+.item1 {grid-column: 1 / 3; padding: 0 20px;}
+.item2 {grid-column: 3 / 5; padding: 0 20px;}
+.item3 {grid-column: 4 / 8;}
+
+h3{font-size: 1.17em;}
+
+.telegram-bottom img{ display: none;}
+.responsive{ width: 100%; height: auto;}
+
+/* popup css */
+#overlay {position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #000; filter:alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity: 0.7; opacity: 0.7; z-index: 100; display: none;}
+.cnt223 a{ height: 0;}
+.popup{ width: 100%; margin: 0 auto; display: none; position: fixed; z-index: 1000000000000000000;}
+.cnt223 { min-width: 900px; width: 900px; min-height: 150px; margin: 100px auto; background: #f3f3f3; position: relative; z-index: 1000000000000000000; border-radius: 40px; box-shadow: 0 2px 5px #000;}
+.cnt223 a img { float: right; width: 15%; position: relative; top: 0px; left: 5px;}
+.cnt223 .x{ float: right; height: 35px; left: 22px; position: relative; top: -25px; width: 34px;}
+.cnt223 .x:hover{ cursor: pointer;}
+/* popup css end */
+/* tooltip css */
+.tooltip { display: inline-block; opacity: 1;}
+.tooltip__base { position: absolute; bottom: 14px; left: 50%; margin-left: -148px; width: 500px; height: 200px; display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none;}
+.tooltip__content { color: #fff; display: flex; position: relative; align-items: center; justify-content: center; width: auto; padding: 0 1em; opacity: 0; font-size: 14px; line-height: 1.5;}
+.tooltip__shape { position: absolute; width: 100%; height: 100%; top: 0; left: 0; fill: #141514;}
+/* tooltip css end */
+/*media query*/
+
+@media only screen and (max-width:1200px){
+.main_container{ width:960px;}
+.main_container2{ width:960px;}
+.stats ul li .numscroller{ font-size: 51px;}
+.stats ul li span{ font-size:16px;}
+.stats{ padding:20px 0} 
+
+.coin_details_btm ul li{ width:24.5%}
+.coin_details_top ul li{ width:24.5%}
+.coin_details_top ul li:nth-child(5){ display:none}
+
+.banner_content_l{ width:500px;} 
+.banner_content .t1 span{font-size: 42px;}
+.homebanner{ height:480px;}
+}
+
+@media only screen and (max-width:900px){
+.main_container{ width:750px;}
+.main_container2{ width:750px;}
+
+.coin_details_btm ul li{ width:32.8%}
+.coin_details_top ul li{ width:32.8%}
+.coin_details_top ul li:nth-child(5){ display:none}
+.coin_details_top ul li:nth-child(4){ display:none}
+
+.banner_content_l{width: 400px;}
+.banner_content .t1{font-size: 28px;}
+.banner_content .t1 span{font-size: 32px;}
+.banner_content .email_subs .input{ width:184px}
+.banner_content .t2{font-size: 29px;}
+.banner_content_r{ width: 328px;}
+
+.homebanner{ height:420px;}
+.banner_content_l{margin-top: 43px; padding-left: 30px;}
+.banner_content_r{ width:100%;  margin-top: 54px;}
+.homebanner{ height:650px;}
+.banner_content_l{ padding-left:0; width:100%}
+.banner_content .t1 span{ font-size:25px;}
+.banner_content .t1{font-size: 20px;}
+
+}
+
+
+@media only screen and (max-width:700px){
+
+.main_container{ width:590px;}
+.main_container2{ width:590px;}
+.head_right .mob{ display:none}
+
+.stats ul li .numscroller{ font-size: 41px;}
+.stats ul li span{ font-size:16px;}
+.stats{ padding:20px 0} 
+
+.feel_secure ul li{ width:90%; padding: 20px 5%; border:none}
+.feel_secure_top h2{ font-size:20px;}
+
+.coin_details_btm ul li{ width:49.5%}
+.coin_details_top ul li{ width:49.5%}
+.coin_details_top ul li:nth-child(5){ display:none}
+.coin_details_top ul li:nth-child(4){ display:none}
+.coin_details_top ul li:nth-child(3){ display:none}
+}
+
+@media only screen and (max-width:550px){
+.main_container{ width:460px;}
+.main_container2{ width:460px;}
+
+.stats ul li .numscroller{ font-size: 31px;}
+.stats ul li span{ font-size:14px;}
+.stats{ padding:20px 0} 
+
+.coin_details_btm ul li{ width:100%; margin:0}
+.coin_details_top ul li{ width:100%; margin:0}
+.coin_details_top ul li:nth-child(5){ display:none}
+.coin_details_top ul li:nth-child(4){ display:none}
+.coin_details_top ul li:nth-child(3){ display:none}
+.coin_details_top ul li:nth-child(2){ display:none}
+.coin_tabs_top ul li a{padding: 8px 6px;}
+
+.item .icon1{ width:100%;}
+}
+
+@media only screen and (max-width:400px){
+	.main_container{ width:350px;}
+	.main_container2{ width:350px;}
+	.header .logo img { width:120px;}
+	.head_right{padding-top: 4px;}
+	.head_right .login a{border-radius: 5px; padding: 2px 12px;}
+	.footer .list{width: 100%; padding-bottom: 20px; text-align:left}
+	.footer{ padding:25px 0}
+	.footer .social img{ width:35px;}
+	.social{ padding-top:10px}
+	.foo{ font-size:10px; padding-top:10px;}
+
+	.banner_content .email_subs .btn{ padding: 6px 10px;}
+	.banner_content .email_subs .input{padding: 7px 0px 8px 10px;}
+	.banner_content .t2{font-size: 22px;}
+	.homebanner{ height:580px;}
+
+	.about-crypto{ width: 100%; padding-bottom: 20px;}
+	.about-crypto img{width: 100%;}
+
+	.inner-image img{width: 100%; padding-top: 20px;}
+
+	.coin_tabs_top ul li a{padding: 8px 2px;}
+	
+	.coin_details_top .ta3 {
+    width: 140px;
+    float: left;
+}
+
+	/*.header .logo{ text-align: center; float: none;}
+	.head_right .login{ padding-left: 55px;}*/
+}
+
+@media screen and (max-width: 900px) and (min-width: 550px) {
+	.item .icon1{ width:60%;}
+	.item { padding-left: 125px;}
+
+	.coin_tabs_top ul li a{padding: 8px 23px;}
+}
+
+@media screen and (max-width: 900px) and (min-width: 401px) {
+	.main_container{ width:95%;}
+	.main_container2{ width:95%;}
+
+	.about-crypto{width: 100%;padding-bottom: 20px;}
+	.about-crypto img{width: 100%;}
+
+	.inner-image img{width: 50%; padding-top: 20px;}
+}
+
+

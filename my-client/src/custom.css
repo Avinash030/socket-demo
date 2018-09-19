@@ -1,0 +1,17 @@
+.menu {grid-area: allmenu}
+.item {grid-area: main}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    'allmenu allmenu main main main main';
+    grid-gap: 10px;
+    background-color: azure;
+    padding: 10px;
+}
+.container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
