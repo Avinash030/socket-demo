@@ -9,9 +9,12 @@ var y = 0
 //     },2000) 
 io.on('connection',  socket => {
 	console.log("Client Successfully Connected");
-	setInterval(()=>{
-		io.emit('chat',y++);
-	},2000)
+	// setInterval(()=>{
+	// 	io.emit('chat',y++);
+	// },2000)
+	socket.on('chat', function(data){
+       console.log( data);
+    })
 })
 
 server.listen(5000, () => {
